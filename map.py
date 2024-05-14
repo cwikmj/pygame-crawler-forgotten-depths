@@ -66,13 +66,3 @@ class Chest(pygame.sprite.Sprite):
             dungeon_decoration[26][45:48] = [131, 152, 133]
             dungeon_decoration[27][45:48] = [140, 141, 142]
             map.complete = True
-
-# Use a single surface for rendering the maze: Instead of creating a new surface for each wall tile, you can create 
-# a single surface to render the entire maze. This will reduce the number of blit operations and improve performance.
-
-# Only update visible portions of the maze: Instead of updating the entire maze on each frame, you can calculate 
-# the visible portion of the maze based on the player's position and only update that portion. This will reduce the amount
-# of rendering required and improve performance.
-
-# Cache the wall tile images: Instead of loading the wall tile image from disk on each frame, you can load the images
-# once and cache them for reuse. This will reduce disk I/O and improve performance.

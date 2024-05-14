@@ -32,6 +32,3 @@ def get_neighbors(node, map):
             neighbors.append((new_x, new_y))
 
     return neighbors
-
-# Embark on a mage's journey through treacherous tunnels. Cast spells, battle enemies, and unravel secrets.
-# Shape the realm's destiny, solve puzzles, and become a legendary hero. The fate of the realm is in your hands.

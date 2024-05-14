@@ -5,7 +5,7 @@ BUTTON = (139, 69, 19)
 
 X_OFFSET = 0
 Y_OFFSET = 850
-TEXTURE_SIZE = 40   # 50 x 30
+TEXTURE_SIZE = 40
 SCROLL_TRESH = 260
 
 PLAYER_COLOR = (80, 40, 20)
@@ -13,7 +13,7 @@ PLAYER_X = 150
 PLAYER_Y = 1120
 PLAYER_SIZE = 70
 PLAYER_ANGLE = 0
-PLAYER_SPEED = 4    # 4
+PLAYER_SPEED = 4
 PLAYER_MAX_HEALTH, PLAYER_MAX_MANA = 100, 100
 
 NPC_STATS = {
@@ -32,9 +32,3 @@ NPC_STATS = {
         "DIE_SOUND": "die_boss"
     }
 }
-
-# https://10kstudios.itch.io/top-down-boss-enemy-animated
-# https://10kstudios.itch.io/top-down-enemy-animated-8-directions
-# https://foozlecc.itch.io/lucifer-skeleton-ancient-boss
-
-# https://makotohiramatsu.itch.io/dungeon-crawl-game-sounds/download/eyJpZCI6MjQ2MzI2NywiZXhwaXJlcyI6MTcxMjQ3OTM5OH0%3d.5XbCzzo4dfPrnlWfRFI0x0NzGqw%3d
